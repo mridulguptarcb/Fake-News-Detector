@@ -51,8 +51,8 @@ def check_news(text):
     vector = vectorizer.transform([cleaned])
     return "Real" if model.predict(vector)[0] == 1 else "Fake"
 
-print(check_news("India launches a new space mission next year."))#real
-print(check_news("NASA found aliens hiding in the moon base."))#fake
+print(check_news("India launches a new space mission next year.")) #Real
+print(check_news("NASA found aliens hiding in the moon base.")) #Fake
 print(check_news("The Prime Minister announced a new economic policy today."))  # Real
 print(check_news("Scientists discovered a cure for cancer in just one week."))   # Likely Fake
 print(check_news("Facebook plans to launch a new feature for reels and stories."))  # Real
@@ -62,5 +62,4 @@ print(check_news("Donald Trump secretly owns Google and Amazon shares."))       
 print(check_news("World Bank approves $500M loan for Indian infrastructure."))     # Real
 print(check_news("NASA confirms two moons orbiting Earth after new discovery."))   # Fake
 print(check_news("Supreme Court passes new data privacy regulation bill."))        # Real
-print(check_news("Drinking cow urine daily prevents all kinds of diseases."))      # Likely Fake\
-print(check_news("Hinduism is not what people are practicing it today")) #BHOT JYDA REAL
+print(check_news("Drinking cow urine daily prevents all kinds of diseases."))      # Likely Fake
