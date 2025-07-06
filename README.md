@@ -30,7 +30,7 @@ A machine learning project to detect fake and real news articles using **TF-IDF 
 ---
 
 ## 📈 Accuracy
-Achieved ~93–95% test accuracy  
+Achieved ~98.6% test accuracy  
 Confusion Matrix shows strong balance between real and fake predictions.
 
 ---
